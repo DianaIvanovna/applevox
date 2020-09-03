@@ -1,0 +1,18 @@
+$primary-color: #003B72;
+$secondary-color: #50CAFF;
+$button-color: #7761FF;
+@mixin Rubik{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+}
+@mixin Rubik500{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+}
+@mixin Rubik300{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+}
