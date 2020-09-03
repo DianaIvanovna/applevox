@@ -39,7 +39,7 @@ export default {
   },
   mounted() {
     axios
-      .get('https://dianaivanovna.github.io/appvelox/appointments.json')
+      .get('appointments.json')
       .then((res) => {
         this.appointmentsData = res.data.appointments;
         this.dates = this.appointmentsData.map((item) => { // сделала отдельный массив для дат

@@ -40,7 +40,6 @@ export default {
       this.flagHiddenCard = event.flag;
       this.horizontallyAppointmets = event.flag;
       this.dates = event.dates;
-      console.log(this.dates);
     },
     openElCard() {
       this.flagHiddenCard = false;
